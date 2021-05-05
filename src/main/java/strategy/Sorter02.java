@@ -34,7 +34,7 @@ public class Sorter02 {
         arr[i] = arr[j];
         arr[j] = t;
     }
-
+    //对cat数组进行排序
     public static void main(String[] args) {
         Cat[] cats = {new Cat(3, 3), new Cat(5, 5), new Cat(1, 1)};
         sort(cats);

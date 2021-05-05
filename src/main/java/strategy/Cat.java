@@ -1,6 +1,6 @@
 package strategy;
 
-public class Cat {
+public class Cat implements Comparable<Cat>{
 
     int weight, height;
 
@@ -25,4 +25,6 @@ public class Cat {
                 ", height=" + height +
                 '}';
     }
+
+
 }

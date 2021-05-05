@@ -20,7 +20,7 @@ public class Sorter01 {
         arr[i] = arr[j];
         arr[j] = t;
     }
-
+    //对int数组进行排序
     public static void main(String[] args) {
         int[] a = {9, 2, 3, 5, 7, 1, 4};
         Sorter01 sorter = new Sorter01();
